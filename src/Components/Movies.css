@@ -1,0 +1,12 @@
+.prev:hover,
+.next:hover {
+  transform: scale(1.2); /* Remove 's' from scale(1.2s) */
+  transition: transform 0.2s ease-in-out; /* Add transition effect */
+}
+.movie-inf {
+  font-family: "Bebas Neue", sans-serif; /* Stylish and readable */
+  font-weight: 700; /* Bold for emphasis */
+  text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5); /* Slight shadow for contrast */
+  color: rgb(20, 6, 6); /* High contrast */
+  padding: 10px; /* Add some space */
+}

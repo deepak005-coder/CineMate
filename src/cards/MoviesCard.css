@@ -1,0 +1,45 @@
+/* Style for the heart icon */
+.wishlist-icon {
+  font-size: 2rem; /* Increase the size */
+  color: rgb(97, 97, 97); /* Default color */
+  z-index: 10; /* Ensure it appears above other elements */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth scaling and color transition */
+}
+
+/* Hover effect for the heart icon */
+
+.movie-info {
+  font-family: "Bebas Neue", sans-serif; /* Stylish and readable */
+  font-weight: 600; /* Bold for emphasis */
+
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); /* Slight shadow for contrast */
+  color: white; /* High contrast */
+  padding: 10px; /* Add some space */
+}
+.wishlist-container {
+  position: relative; /* Ensure tooltip is positioned relative to the container */
+}
+
+.wishlist-icon {
+  font-size: 33px; /* Adjust size as needed */
+  color: rgb(214, 211, 211); /* Default icon color */
+  transition: transform 0.3s, color 0.3s; /* Smooth scaling and color change */
+}
+
+.wishlist-icon:hover {
+  transform: scale(1.2); /* Scale effect on hover */
+  color: #ff007f !important; /* Pink color on hover */
+}
+
+.wishlist-container:hover .wishlist-tooltip {
+  display: block; /* Show tooltip on hover */
+}
+
+.ratings {
+  font-family: "Bebas Neue", sans-serif; /* Stylish and readable */
+  font-weight: 600; /* Bold for emphasis */
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); /* Slight shadow for contrast */
+  color: white; /* High contrast */
+  padding: 5px; /* Add some space */
+}
